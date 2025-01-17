@@ -372,3 +372,23 @@ main{
 }
 
 /* sponsor section and main section are done */
+
+/* footer section */
+.footer p{
+    background-color: #FFF4E7;
+    margin: 40px auto 40px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 75vw;
+    color: #727272;
+}
+
+@media screen and (max-width:576px){
+    .footer p{
+        width: 100vw;
+        margin-bottom: 0px;
+        font-size: smaller;
+        color: #727272;
+    }
+}
