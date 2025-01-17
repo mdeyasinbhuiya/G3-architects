@@ -80,7 +80,7 @@ body{
 }
 
 @media screen and (max-width:576px) {
-    .navigation{
+    .navigation {
         flex-direction: column;
     }
     .link-container{
@@ -115,3 +115,70 @@ body{
 }
 
 /* header section complete */
+
+/* main section start from here */
+main{
+    width: 75vw;
+    margin: 80px auto 0px;
+    /* border: 1px solid black; */
+}
+
+.quick-list-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    width: 100%;
+}
+.quick-list-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    
+   
+}
+.quick-list-img img{
+    width: 100%;
+}
+.list-title{
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+#quick{
+ font-weight: 500;
+}
+#feature{
+    color: #FF900E;
+}
+.quick-list-content{
+    width: 530px;
+}
+.list-description{
+    line-height: 26px;
+}
+
+@media screen and (max-width:576px){
+    .quick-list-container{
+        flex-direction: column;
+    }
+    .quick-list-img{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .quick-list-content{
+        width: 90vw;
+    }
+
+}
+@media screen and (min-width:576px) and (max-width:990px){
+    .quick-list-container{
+        flex-direction: column;
+    }
+    .quick-list-content{
+        width: 75vw;
+    }
+}
+
+/* quick list section complete */
+
+/* feature section start from here */
