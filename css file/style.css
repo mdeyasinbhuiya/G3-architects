@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Work Sans", serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* sheared style */
+.dark-2{
+    color: #424242;
+}
+.dark-3{
+    color:#727272;
+}
+
+body{
+     font-family: "Work Sans", serif;
+     color: #131313;
+     
+}
+.header{
+    width: 100vw;
+    background-color: #ff8f0e11;
+}
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    align-items: center;
+}
+.link-container{
+    display: flex;
+}
+.link{
+    list-style: none;
+    margin-right: 30px;
+}
+.link a{
+    text-decoration: none;
+   font-size: 1.12rem;
+   color: #424242;
+}
+.brand{
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+.banner{
+    text-align: center;
+    margin: 100px auto 45px;
+    width: 90vw;
+    
+    
+
+}
+.banner-content{
+    width: 840px;
+    margin: auto;
+}
+.banner-title{
+ font-size: 4rem;
+ font-weight: bold;
+ margin-bottom: 15px;
+}
+.primary-btn{
+    color: white;
+    background-color: #FF900E;
+    padding: 20px 25px;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: none;
+    cursor: pointer;
+}
+.primary-btn:hover{
+    background-color:rgb(207, 114, 0);
+}
+.banner img{
+     width: 100%;
+}
+
+@media screen and (max-width:576px) {
+    .navigation{
+        flex-direction: column;
+    }
+    .link-container{
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        margin-top: 30px;
+    }
+    .banner-content{
+        width: 90vw;
+    }
+    .banner-title{
+        font-size: 3.5rem;
+    }
+    .banner{
+        margin-top: 50px;
+    }
+    .brand{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (min-width:576px) and (max-width:990px){
+    .navigation{
+        flex-direction: column;
+    }
+    .banner-content{
+        width: 90vw;
+    }
+    .link-container{
+    margin-top: 20px;
+    }
+}
+
+/* header section complete */
