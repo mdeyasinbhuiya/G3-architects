@@ -200,6 +200,7 @@ main{
     margin-bottom: 24px;
     padding-left: 26px;
     width: 480px;
+    border-left:5px solid #FF900E;
 }
 .feature-description{
     margin-bottom: 30px;
